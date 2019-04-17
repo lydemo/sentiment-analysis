@@ -17,6 +17,6 @@ We adopt SeqGAN model in the platform of [Texygen](https://github.com/geek-ai/Te
 
 ## Usage
 1.Change corresponding file path in run_cnn.py(including corpus path,word embeddings path and model path)
-2.Training:Run the run_cnn.py by command in commanding window:python run_cnn.py train 
+2.Training:Run the run_cnn.py by command in commanding window:python run_cnn.py train     
 3.Predicting:Run the run_cnn.py by command in commanding window:python run_cnn.py test
 
