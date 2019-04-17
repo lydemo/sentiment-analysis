@@ -1,25 +1,22 @@
 ---
-# SemEval18 Irony Shared Task Example Scripts
-This repository contains a benchmark system for the SemEval-2018 Task 3 <b>Irony detection in English tweets</b>.
-The script <tt>example.py</tt> contains Python example code for simple featurisation and classification using the Scikit-learn library.
-
-The script is written in Python 3 but is Python 2 compatible.
-
+# Stock sentiment analysis
+This repository contains a benchmark system for our paper <b>Using SeqGAN as oversampling method in analysis of Chinese stock investor sentiment</b>.
 
 ## Dependencies
 - Python 3.6.x
-- NLTK 3.2.4
-- numpy 1.13.1
-- scikit-learn 0.19.0
-- scipy 0.19.1
-- six 1.10.0
+- Tensorflow(newest version)
+- Anaconda(newest version)
 
-Python module dependencies can be found in `requirements.txt`
 
-Install with pip:
-`pip install -r requirements.txt`
+## Word Embeddings
+The word embeddings we adopted comes from [here](https://github.com/Embedding/Chinese-Word-Vectors), we adopt the financial news word embeddings.
 
-## Usage
-Run `python example.py` from terminal.
+## SeqGAN model
+We adopt SeqGAN model in the platform of [Texygen](https://github.com/geek-ai/Texygen)
 
-**NOTE**: the path to the input file and the task (A or B) has to be hard-coded in the script.
+
+##Usage
+1.Change corresponding file path in run_cnn.py(including corpus path,word embeddings path and model path)
+2.Training:Run the run_cnn.py by command in commanding window:python run_cnn.py train
+3.Predicting:Run the run_cnn.py by command in commanding window:python run_cnn.py test
+
