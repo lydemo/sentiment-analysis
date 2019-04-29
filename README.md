@@ -1,6 +1,6 @@
 ---
 # Stock sentiment analysis
-This repository contains a benchmark system for our paper <b>Using SeqGAN as oversampling method in analysis of Chinese stock investor sentiment</b>.
+This repository contains a benchmark system for our paper <b>Classification and Analysis for Chinese Stock Investor Sentiment: Using SeqGAN as Oversampling Method</b>.
 
 ## Dependencies
 - Python 3.6.x
